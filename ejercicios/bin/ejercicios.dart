@@ -2,7 +2,7 @@ import 'package:ejercicios/ejercicio1.dart' as ejercicio1;
 import 'package:ejercicios/ejercicio2.dart' as ejercicio2;
 import 'package:ejercicios/ejercicio3.dart' as ejercicio3;
 import 'package:ejercicios/ejercicio4.dart' as ejercicio4;
-
+import 'package:ejercicios/ejercicio5.dart' as ejercicio5;
 
 void main(List<String> arguments) {
 
@@ -27,4 +27,8 @@ void main(List<String> arguments) {
   //Ejercicio 4: Auditoría de Seguridad y Ecosistema
   print("\nEjercicio 4: Auditoría de Seguridad y Ecosistema");
   ejercicio4.auditarSeguridad();
+
+  //Ejercicio 5: El Dilema de la Innovación (Nuevas Funcionalidades)
+  print("\nEjercicio 5: El Dilema de la Innovación (Nuevas Funcionalidades)");
+  ejercicio5.compararAsistentes();
 }
